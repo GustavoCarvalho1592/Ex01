@@ -32,7 +32,7 @@ max-width: 100%;
 
 /* Estilo das divs que contêm as imagens */
 div.box {
-width: 180px;
+width: 160px;
 display:inline-block;
 padding: 25px;
 margin:auto; /* Centraliza horizontalmente */
@@ -50,5 +50,4 @@ margin:50;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
 transform: scale(1.1);
 transition: 500ms linear; 
-
 }
