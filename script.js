@@ -24,8 +24,8 @@ function ansiedade() {
   if (contadorCliques === 0) {
     contadorCliques++;
   //Array de nomes de imagens aleatórias
-  const imagensAleatorias = ["/img/ansiedade-1.png", "/img/ansiedade-2.png", 
-  "/img/ansiedade-3.png", "/img/ansiedade-4.png", "/img/ansiedade-5.png"];
+  const imagensAleatorias = ["/img/ansiedade-1.jpg", "/img/ansiedade-2.jpg", 
+  "/img/ansiedade-3.jpg", "/img/ansiedade-4.jpg", "/img/ansiedade-5.jpg"];
 
   //Gerar um número aleatório de 0 a 4
   const numeroAleatorio = Math.floor(Math.random() * imagensAleatorias.length);
@@ -44,7 +44,7 @@ function alegria() {
  
   if (contadorCliques === 0) {
     contadorCliques++;
-  const imagensAleatorias = ["/img/alegria-1.png", "/img/alegria-2.png", 
+  const imagensAleatorias = ["/img/alegria-1.jpg", "/img/alegria-2.png", 
   "/img/alegria-3.png", "/img/alegria-4.png", "/img/alegria-5.png"];
 
   //Gerar um número aleatório de 0 a 4
