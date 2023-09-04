@@ -24,8 +24,8 @@ function ansiedade() {
   if (contadorCliques === 0) {
     contadorCliques++;
   //Array de nomes de imagens aleatórias
-  const imagensAleatorias = ["/img/ansiedade-1.jpg", "/img/ansiedade-2.jpg", 
-  "/img/ansiedade-3.jpg", "/img/ansiedade-4.jpg", "/img/ansiedade-5.jpg"];
+  const imagensAleatorias = ["/img/ansiedade1.jpg", "/img/ansiedade2.jpg", 
+  "/img/ansiedade3.jpg", "/img/ansiedade4.jpg", "/img/ansiedade5.jpg"];
 
   //Gerar um número aleatório de 0 a 4
   const numeroAleatorio = Math.floor(Math.random() * imagensAleatorias.length);
@@ -44,8 +44,8 @@ function alegria() {
  
   if (contadorCliques === 0) {
     contadorCliques++;
-  const imagensAleatorias = ["/img/alegria-1.jpg", "/img/alegria-2.png", 
-  "/img/alegria-3.png", "/img/alegria-4.png", "/img/alegria-5.png"];
+  const imagensAleatorias = ["/img/alegria1.jpg", "/img/alegria2.jpg", 
+  "/img/alegria3.jpg", "/img/alegria4.jpg","/img/alegria5.jpg"];
 
   //Gerar um número aleatório de 0 a 4
   const numeroAleatorio = Math.floor(Math.random() * imagensAleatorias.length);
@@ -64,8 +64,8 @@ function medo() {
   if (contadorCliques === 0) {
     contadorCliques++;
 
-  const imagensAleatorias = ["/img/medo-1.png", "/img/medo-2.png", 
-  "/img/medo-3.png", "/img/medo-4.png", "/img/medo-5.png"];
+  const imagensAleatorias = ["/img/medo1.jpg", "/img/medo2.jpg", 
+  "/img/medo3.jpg", "/img/medo4.jpg", "/img/medo5.jpg"];
 
   //Gerar um número aleatório de 0 a 4
   const numeroAleatorio = Math.floor(Math.random() * imagensAleatorias.length);
@@ -84,8 +84,8 @@ function naosei() {
   
   if (contadorCliques === 0) {
     contadorCliques++;
-  const imagensAleatorias = ["/img/Nao-Sei-1.png", "/img/Nao-Sei-2.png", 
-  "/img/Nao-Sei-3.png", "/img/Nao-Sei-4.png", "/img/Nao-Sei-5.png"];
+  const imagensAleatorias = ["/img/NaoSei1.jpg", "/img/NaoSei2.jpg", 
+  "/img/NaoSei3.jpg", "/img/NaoSei4.jpg", "/img/NaoSei5.jpg"];
 
   //Gerar um número aleatório de 0 a 4
   const numeroAleatorio = Math.floor(Math.random() * imagensAleatorias.length);
@@ -102,8 +102,8 @@ function raiva() {
   
   if (contadorCliques === 0) {
     contadorCliques++;
-  const imagensAleatorias = ["/img/Raiva-1.png", "/img/Raiva-2.png", 
-  "/img/Raiva-3.png", "/img/Raiva-4.png", "/img/Raiva-5.png"];
+  const imagensAleatorias = ["/img/Raiva1.jpg", "/img/Raiva2.jpg", 
+  "/img/Raiva3.jpg", "/img/Raiva4.jpg", "/img/Raiva5.jpg"];
 
   //Gerar um número aleatório de 0 a 4
   const numeroAleatorio = Math.floor(Math.random() * imagensAleatorias.length);
