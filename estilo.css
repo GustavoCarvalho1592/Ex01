@@ -39,7 +39,7 @@ margin:auto; /* Centraliza horizontalmente */
 text-align:center; /* Centraliza o conteúdo horizontalmente */    
 vertical-align:sub middle; /* Centraliza verticalmente */
 position:relative;
-top: 250px;
+top: 200px;
 left: 0%;
 transform: translate(0%, 0%);        
 }
@@ -50,4 +50,10 @@ margin:50;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
 transform: scale(1.1);
 transition: 500ms linear; 
+}
+
+h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(56, 41, 29);
 }
