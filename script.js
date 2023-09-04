@@ -33,8 +33,8 @@ function ansiedade() {
   //Selecionar aleatoriamente uma imagem da lista de imagens aleatórias
   const imagemAleatoria = imagensAleatorias[numeroAleatorio];
 
-    //Exibir a imagem aleatória no elemento com ID "imagem"
-    document.getElementById("ansiedade").querySelector('img').src = imagemAleatoria;
+  //Exibir a imagem aleatória no elemento com ID "imagem"
+  document.getElementById("ansiedade").querySelector('img').src = imagemAleatoria;
     
 
 }

@@ -1,12 +1,11 @@
 body{
     
-    /* Onde está a imagem do fundo, letras do site */
-    color: white; 
-    background:url(./img/fotofundo4.jpg);
-    background-size:auto;
-    image-resolution: auto;
-   
-    }
+/* Onde está a imagem do fundo, letras do site */
+color: white; 
+background:url(./img/fotofundo4.jpg);
+background-size:auto;
+image-resolution: auto;
+}
     
 
 
@@ -26,27 +25,23 @@ font-style: italic;
 img{
 border-radius: 20%;
 width: 300px;
-
 display: block;
 margin: 20px auto;
 max-width: 100%;
-
 }
 
 /* Estilo das divs que contêm as imagens */
 div.box {
-    width: 180px;
-    display:inline-block;
-    padding: 25px;
-    margin:auto; /* Centraliza horizontalmente */
-    text-align:center; /* Centraliza o conteúdo horizontalmente */    
-    vertical-align:sub middle; /* Centraliza verticalmente */
-    position:relative;
-    top: 250px;
-    left: 0%;
-    transform: translate(0%, 0%);    
-       
-    
+width: 180px;
+display:inline-block;
+padding: 25px;
+margin:auto; /* Centraliza horizontalmente */
+text-align:center; /* Centraliza o conteúdo horizontalmente */    
+vertical-align:sub middle; /* Centraliza verticalmente */
+position:relative;
+top: 250px;
+left: 0%;
+transform: translate(0%, 0%);        
 }
 
 section :hover{
