@@ -1,23 +1,20 @@
 body{
     
 /* Onde está a imagem do fundo, letras do site */
-color: white; 
-background:url(./img/fotofundo4.jpg);
-background-size:auto;
-image-resolution: auto;
+background:url(./img/Group1.png);
+background-size:cover;
+font-size: 5rem;
 }
     
 
 
 header{
-color: white;
 text-align: center;
 font-family:Arial, Helvetica, sans-serif;
 }
 
 
 footer{
-color: white;
 text-align: center;
 font-style: italic;
 }
@@ -34,26 +31,24 @@ max-width: 100%;
 div.box {
 width: 160px;
 display:inline-block;
-padding: 25px;
+padding: 20px;
 margin:auto; /* Centraliza horizontalmente */
 text-align:center; /* Centraliza o conteúdo horizontalmente */    
 vertical-align:sub middle; /* Centraliza verticalmente */
-position:relative;
-top: 200px;
-left: 0%;
-transform: translate(0%, 0%);        
+top: 100px; 
 }
 
 section :hover{
 padding: 15px;
-margin:50;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+margin: 10px;
 transform: scale(1.1);
 transition: 500ms linear; 
 }
 
 h1{
-    text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(56, 41, 29);
+text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgba(77, 51, 30, 0.849);
+font-size: 72px;    
 }
+
